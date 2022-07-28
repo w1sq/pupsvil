@@ -1,0 +1,9 @@
+config.py
+service_key.json
+users.db
+__pycache__
+.vscode
+.mypy_cache
+chromedriver.exe
+*.xlsx
+test.py

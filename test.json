@@ -1,0 +1,143 @@
+{
+    "id": "json-rpc_20",
+    "jsonrpc": "2.0",
+    "result": {
+        "limits": {
+            "206348": [
+                {
+                    "date": "2022-07-18T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 166,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-19T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 395,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-20T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 287,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-21T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 848,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-22T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 919,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-23T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 793,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-24T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 756,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-25T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 835,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-26T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 587,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-27T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 880,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-28T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 662,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-29T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 751,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-30T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 851,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-07-31T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 989,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-08-01T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 902,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-08-02T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 953,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-08-03T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 0,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-08-04T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 0,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                },
+                {
+                    "date": "2022-08-07T00:00:00Z",
+                    "limitMonoMix": 0,
+                    "limitPallet": 0,
+                    "limitSupersafe": 0,
+                    "warehouseId": 206348
+                }
+            ]
+        }
+    }
+}
