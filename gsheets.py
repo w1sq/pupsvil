@@ -196,7 +196,7 @@ class Google_Sheets():
         sleep(30)
 
     def get_reviews(self):
-        sheet = self.gc.open_by_key('1LMt-hlMhaDq0iyMenlC6QdWWfQ7sgVZ4tl9_ka14HVY')
+        sheet = self.gc.open_by_key('1pfccsL81OaevKsANsoMDzsDX_MEDlKU3sco1NE37Ows')
         worksheet = sheet.worksheet('Отзывы')
         all_data = worksheet.get_all_values()
         reviews = []
@@ -206,21 +206,21 @@ class Google_Sheets():
         return reviews
     
     def get_review_by_appeal_num(self, appeal_number:int):
-        sheet = self.gc.open_by_key('1LMt-hlMhaDq0iyMenlC6QdWWfQ7sgVZ4tl9_ka14HVY')
+        sheet = self.gc.open_by_key('1pfccsL81OaevKsANsoMDzsDX_MEDlKU3sco1NE37Ows')
         worksheet = sheet.worksheet('Отзывы')
         row = worksheet.find(appeal_number).row
         return worksheet.acell(f'D{row}').value
 
     def get_regional(self, platform:str):
         sheet = self.gc.open_by_key('1lCp3Myysw5kekRL3CTXnhuGwvQLT348V9q5rM735Uvg')
-        worksheet = sheet.worksheet('Уведомления')
+        worksheet = sheet.worksheet('Пупсвиль')
         if platform == 'wb':
             return worksheet.acell('A2').value
         elif platform == 'ozon':
             return worksheet.acell('B2').value
 
     def change_review_status(self, appeal_number:int, status:str):
-        sheet = self.gc.open_by_key('1LMt-hlMhaDq0iyMenlC6QdWWfQ7sgVZ4tl9_ka14HVY')
+        sheet = self.gc.open_by_key('1pfccsL81OaevKsANsoMDzsDX_MEDlKU3sco1NE37Ows')
         worksheet = sheet.worksheet('Отзывы')
         row = worksheet.find(appeal_number).row
         worksheet.update(f'H{row}', status)
@@ -239,7 +239,7 @@ class Google_Sheets():
         worksheet.update(f'J{row}', datetime.now().strftime("%d.%m.%Y"))
 
     def send_answer(self, answer_id, answer):
-        sheet = self.gc.open_by_key('1LMt-hlMhaDq0iyMenlC6QdWWfQ7sgVZ4tl9_ka14HVY')
+        sheet = self.gc.open_by_key('1pfccsL81OaevKsANsoMDzsDX_MEDlKU3sco1NE37Ows')
         worksheet = sheet.worksheet('Отзывы')
         row = worksheet.find(answer_id).row
         worksheet.update(f'F{row}', answer)
