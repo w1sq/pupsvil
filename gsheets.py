@@ -193,7 +193,7 @@ class Google_Sheets():
         sleep(10)
         login = browser.find_element(By.TAG_NAME, "button")
         login.click()
-        sleep(30)
+        sleep(40)
 
     def get_reviews(self):
         sheet = self.gc.open_by_key('1pfccsL81OaevKsANsoMDzsDX_MEDlKU3sco1NE37Ows')
